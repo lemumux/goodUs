@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+     <array name="fileEndingImage">1</array>
+     <array name="fileEndingWebText">2</array>
+     <array name="fileEndingPackage">3</array>
+     <array name="fileEndingAudio">4</array>
+     <array name="fileEndingVideo">5</array>
+</resources>

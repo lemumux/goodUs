@@ -1,0 +1,48 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <Button
+        android:id="@+id/settime_button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/setTime" >
+    </Button>
+
+    <Button
+        android:id="@+id/settime_buttonsubmit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/setTimesubmit" >
+    </Button>
+
+    <TextView
+        android:id="@+id/textview1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TimePicker
+        android:id="@+id/timePicker1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/setTimeS"
+        android:visibility="invisible" />
+     <ListView
+         android:id="@+id/listView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+         ></ListView>
+     <Button android:id="@+id/buttonplay1"
+         android:text="@string/palyMusic"
+           android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+     <GridView 
+         android:id="@+id/gridView1"
+        android:layout_width="wrap_content"
+        android:layout_height="300dp"
+         ></GridView>
+</LinearLayout>

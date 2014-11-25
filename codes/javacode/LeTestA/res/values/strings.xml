@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">LeTestA</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="setTime">"设定时间"</string>
+    <string name="setTimeS">"时间设定"</string>
+     <string name="setTimesubmit">"确定时间"</string>
+      <string name="palyMusic">播放</string>
+</resources>
